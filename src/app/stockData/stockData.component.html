@@ -1,0 +1,17 @@
+<div class="layout-column align-items-center mt-50">
+  <section class="layout-row align-items-center justify-content-center">
+    <input [(ngModel)]="dateInput" type="text" class="large" placeholder="5-January-2000"
+           id="app-input" data-test-id="app-input"/>
+  <button (click)="searchStockDataByDate()" class="" id="submit-button" data-test-id="submit-button">Search</button>
+  </section>
+
+  <ul *ngIf="!isNoData && isRequestComplete" class="mt-50 styled slide-up-fade-in" id="stockData" data-test-id="stock-data" >
+    <li class="py-10">Open: {{stockData?.open}}</li>
+    <li class="py-10">Close: {{stockData?.close}}</li>
+    <li class="py-10">High: {{stockData?.high}}</li>
+    <li class="py-10">Low: {{stockData?.low}}</li>
+  </ul>
+
+  <div *ngIf="isNoData" class="mt-50 slide-up-fade-in"
+       id="no-result" data-test-id="no-result">No Results Found</div>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 107.0.5304 (Mac OS X 10.15.7)" package="unit" timestamp="2022-11-18T18:46:27" id="0" hostname="Kesavas-Air.home" tests="4" errors="0" failures="0" time="0.036">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/107.0.5304.110 Safari/537.36"/>
+  </properties>
+  <testcase name="StocksData search is made on by clicking on search button and no results found" time="0.025" classname=".StocksData"/>
+  <testcase name="StocksData search is made on by clicking on search button and result found - test 1" time="0.006" classname=".StocksData"/>
+  <testcase name="StocksData search is made on by clicking on search button and result found - test 2" time="0.003" classname=".StocksData"/>
+  <testcase name="StocksData Initial UI is rendered as expected" time="0.002" classname=".StocksData"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
